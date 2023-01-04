@@ -9,8 +9,6 @@ function App() {
     telegram.ready();
   }, []);
 
-  const onClose = () => telegram.close();
-
   return (
     <div className="App">
       <button onClick={onClose}>Close</button>
